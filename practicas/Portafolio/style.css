@@ -284,18 +284,28 @@ svg {
 @media (max-width: 500px) {
   body {
     background: url(assets/pexels-joão-jesus-921294.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .header {
     width: auto;
     font-size: 10px;
   }
   svg {
-    width: 368px;
-    margin: 0 auto;
+    margin-top: -16rem;
+    width: auto;
+    height: 100vh;
+    /* margin: 0 auto; */
+  }
+  svg image {
+    width: 300px;
+    height: 100vh;
   }
 
   .languages {
-    margin-top: -500px;
+    margin-top: -1250px;
+    font-size: 2rem;
   }
 
   #flex-container {
@@ -315,6 +325,9 @@ svg {
   }
   .portafolio {
     grid-template-columns: repeat(1, 1fr);
+    width: 300px;
+    margin: 0;
+    padding: 0;
   }
   #personal-info-paragraph,
   .container-contact {
@@ -326,5 +339,61 @@ svg {
   .container-contact a img {
     width: 50px;
     height: 50px;
+  }
+  .proyecto img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .container-proyecto {
+    /* margin: 0.2rem; */
+    width: 300px;
+    height: 200px;
+    text-align: center;
+  }
+
+  .container-proyecto-2 {
+    /* margin: 0.2rem; */
+    width: 300px;
+    height: 200px;
+    text-align: center;
+  }
+  .container-proyecto h3 {
+    position: absolute;
+    margin: 0 auto;
+    justify-content: center;
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    color: #f0f0f0;
+    background-color: rgba(200, 200, 200, 0.7);
+  }
+  .container-proyecto-2 h3 {
+    position: absolute;
+    margin: 0 auto;
+    justify-content: center;
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    color: #f0f0f0;
+    background-color: rgba(200, 200, 200, 0.7);
+  }
+  .reloj-digital h3 {
+    bottom: -275vh;
+  }
+  .cronometro-js h3 {
+    bottom: -243vh;
+  }
+  .agenda-js h3 {
+    bottom: -210vh;
+  }
+  .viborita-js h3 {
+    bottom: -178vh;
+  }
+  .miwe-clothes h3 {
+    bottom: -146vh;
+  }
+  .blog-de-cafe h3 {
+    bottom: -113vh;
   }
 }
