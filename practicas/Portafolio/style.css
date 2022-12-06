@@ -364,7 +364,7 @@ svg {
     text-align: center;
   }
   .container-proyecto h3 {
-    position: absolute;
+    position: relative;
     margin: 0 auto;
     justify-content: center;
     width: 90%;
@@ -374,7 +374,7 @@ svg {
     background-color: rgba(200, 200, 200, 0.7);
   }
   .container-proyecto-2 h3 {
-    position: absolute;
+    position: relative;
     margin: 0 auto;
     justify-content: center;
     width: 90%;
@@ -383,22 +383,14 @@ svg {
     color: #f0f0f0;
     background-color: rgba(200, 200, 200, 0.7);
   }
-  .reloj-digital h3 {
-    bottom: -293%;
-  }
-  .cronometro-js h3 {
-    bottom: -258%;
-  }
-  .agenda-js h3 {
-    bottom: -222%;
-  }
-  .viborita-js h3 {
-    bottom: -187%;
-  }
-  .miwe-clothes h3 {
-    bottom: -151%;
-  }
+  .reloj-digital h3,
+  .cronometro-js h3,
+  .agenda-js h3,
+  .viborita-js h3,
+  .miwe-clothes h3,
   .blog-de-cafe h3 {
-    bottom: -115%;
+    bottom: 0;
+    margin: 2% 0;
+    width: 100%;
   }
 }
