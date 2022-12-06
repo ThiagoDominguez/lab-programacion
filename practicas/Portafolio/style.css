@@ -281,7 +281,7 @@ svg {
   transition: all 0.6s;
 }
 
-@media (max-width: 368px) {
+@media (max-width: 500px) {
   body {
     background: url(assets/pexels-joão-jesus-921294.webp);
   }
