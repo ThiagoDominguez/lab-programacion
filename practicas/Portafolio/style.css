@@ -118,6 +118,7 @@ svg {
 
 .card-back p {
   margin-bottom: 150px;
+  font-size: 1.5rem;
 }
 
 .card:hover .card-front {
@@ -133,8 +134,6 @@ svg {
 .personal_card {
   display: flex;
   justify-self: flex-start;
-  transform: perspective(600px) rotateZ(0deg);
-  transform: perspective(600px) rotateY(0deg);
   background-color: dodgerblue;
   margin-top: -100px;
   margin-left: 1rem;
@@ -283,8 +282,16 @@ svg {
 }
 
 @media (max-width: 368px) {
+  body {
+    background: url(assets/pexels-joão-jesus-921294.webp);
+  }
+  .header {
+    width: auto;
+    font-size: 10px;
+  }
   svg {
-    margin-top: -550px;
+    width: 368px;
+    margin: 0 auto;
   }
 
   .languages {
@@ -300,5 +307,24 @@ svg {
     margin-top: 1rem;
     width: 200px;
     height: 300px;
+  }
+  .personal_card {
+    margin: 3rem 0 0 0;
+    width: 250px;
+    height: 300px;
+  }
+  .portafolio {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #personal-info-paragraph,
+  .container-contact {
+    width: 250px;
+  }
+  #personal-info-paragraph {
+    font-size: 16px;
+  }
+  .container-contact a img {
+    width: 50px;
+    height: 50px;
   }
 }
