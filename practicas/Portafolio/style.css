@@ -293,6 +293,7 @@ svg {
     background-size: cover;
   }
   .header {
+    margin: 0 auto;
     width: 100%;
     font-size: 10px;
   }
@@ -383,21 +384,21 @@ svg {
     background-color: rgba(200, 200, 200, 0.7);
   }
   .reloj-digital h3 {
-    bottom: -275vh;
+    bottom: -293%;
   }
   .cronometro-js h3 {
-    bottom: -243vh;
+    bottom: -258%;
   }
   .agenda-js h3 {
-    bottom: -210vh;
+    bottom: -222%;
   }
   .viborita-js h3 {
-    bottom: -178vh;
+    bottom: -187%;
   }
   .miwe-clothes h3 {
-    bottom: -146vh;
+    bottom: -151%;
   }
   .blog-de-cafe h3 {
-    bottom: -113vh;
+    bottom: -115%;
   }
 }
