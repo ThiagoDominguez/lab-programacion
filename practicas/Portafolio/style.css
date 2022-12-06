@@ -137,6 +137,7 @@ svg {
   background-color: dodgerblue;
   margin-top: -100px;
   margin-left: 1rem;
+  margin-right: 1rem;
   position: relative;
   bottom: 1rem;
   width: 300px;
@@ -177,11 +178,11 @@ svg {
 #personal-info-paragraph {
   background-color: rgba(50, 50, 50, 0.5);
   border-radius: 10px;
-  padding: 1rem;
+  padding: 1rem 1rem;
   font-size: 24px;
   font-weight: bold;
   color: #f0f0f0;
-  margin: 3rem 1rem;
+  margin: 3rem auto;
   width: 1000px;
   justify-items: center;
 }
@@ -336,7 +337,9 @@ svg {
     margin: 0;
     padding: 0;
   }
-  #personal-info-paragraph,
+  #personal-info-paragraph {
+    width: 80%;
+  }
   .container-contact {
     width: 80%;
   }
@@ -344,8 +347,8 @@ svg {
     font-size: 16px;
   }
   .container-contact a img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
   .proyecto a img {
     width: 100%;
