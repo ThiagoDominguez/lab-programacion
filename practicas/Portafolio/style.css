@@ -190,7 +190,7 @@ svg {
 .container-contact {
   display: grid;
   background-color: rgba(50, 50, 50, 0.5);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   /* grid-template-rows: repeat(2, 1fr); */
   padding: 0 1rem;
   margin: -40px auto;
@@ -395,5 +395,9 @@ svg {
     bottom: 0;
     margin: 2% 0;
     width: 100%;
+  }
+  .container {
+    margin: 0;
+    height: 210vh;
   }
 }
